@@ -1,4 +1,4 @@
-# MolSight
+# DrugLens
 
 A Flask-based cheminformatics web app for molecular descriptor calculation and drug-likeness analysis.
 
@@ -27,7 +27,7 @@ A Flask-based cheminformatics web app for molecular descriptor calculation and d
 ## Project Structure
 
 ```
-molsight/
+druglens/
 ├── app.py
 ├── requirements.txt
 ├── Procfile

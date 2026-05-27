@@ -85,7 +85,7 @@ def export_csv():
     return Response(
         buf.getvalue(),
         mimetype="text/csv",
-        headers={"Content-Disposition": "attachment; filename=molsight_results.csv"}
+        headers={"Content-Disposition": "attachment; filename=druglens_results.csv"}
     )
 
 
