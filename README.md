@@ -2,6 +2,8 @@
 
 A Flask-based cheminformatics web app for molecular descriptor calculation and drug-likeness analysis.
 
+![DrugLens Landing Page](static/screenshot.png)
+
 ## Features
 
 - **Single Molecule Analysis** — input a SMILES string to calculate molecular descriptors and Lipinski Rule of Five compliance
