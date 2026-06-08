@@ -4,6 +4,14 @@ A Flask-based cheminformatics web app for molecular descriptor calculation and d
 
 ![DrugLens Landing Page](static/screenshot.png)
 
+## Live Demo
+
+https://druglens.onrender.com
+
+## Motivation
+
+As a biotechnology student interested in bioinformatics and computational biology, I built DrugLens to combine biological sciences with software development. The project aims to simplify molecular property analysis by providing an accessible platform for descriptor calculation, drug-likeness assessment, and cheminformatics exploration using RDKit and PubChem data.
+
 ## Features
 
 - **Single Molecule Analysis** — input a SMILES string to calculate molecular descriptors and Lipinski Rule of Five compliance
@@ -51,31 +59,4 @@ druglens/
     └── pubchem.py
 ```
 
-## Running Locally
 
-```bash
-conda activate molfeature
-python app.py
-```
-
-The app runs at `http://localhost:5000` by default.
-
-To enable debug mode locally:
-
-```bash
-FLASK_DEBUG=true python app.py
-```
-
-## Deployment (Render)
-
-1. Push the repository to GitHub
-2. Create a new **Web Service** on [Render](https://render.com)
-3. Connect your GitHub repository
-4. Render will automatically detect the `Procfile` and `requirements.txt`
-5. No additional environment variables are required
-
-The app is served by Gunicorn in production:
-
-```
-web: gunicorn app:app
-```
